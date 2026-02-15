@@ -1,0 +1,92 @@
+--GuestAPI: GetGroupGenderSpawnRules() outputs   [1=table: 0000000017DEF840]
+--  - 1 - Table Contents:
+--  -     1 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+--  -     2 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+--  -     3 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+--  -     4 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+--  -     5 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+--  -     6 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+--  -     7 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+--  -     8 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+--  -     0 - Table Contents:
+--  -         bAllowFemales: true
+--  -         bAllowMales: true
+
+
+--GuestAPI: GetBaseGroupSpawnWeights() outputs   [1=table: 0000000017EA1D80]
+--  - 1 - Table Contents:
+--  -     1: 40
+--  -     2: 40
+--  -     3: 40
+--  -     4: 40
+--  -     5: 40
+--  -     6: 23
+--  -     7: 23
+--  -     8: 23
+--  -     0: 40
+
+--GuestAPI: SetGroupSpawnWeightModifiers() inputs    [cSpawnWeightModifiers=table: 0000000017CC62C0]
+--  - cSpawnWeightModifiers - Table Contents:
+--  -     0: 1.0
+--  -     1: 1.0
+--  -     2: 1.0
+--  -     3: 1.0
+--  -     4: 1.0
+--  -     5: 1.0
+--  -     6: 1.0
+--  -     7: 1.0
+--  -     8: 1.0
+
+
+--GuestAPI: GetGroupTypeName() inputs    [i=1]
+--GuestAPI: GetGroupTypeName() outputs   [1="SingleAdult"]
+--AttractionsAPI: Group Type [1] - SingleAdult
+--GuestAPI: GetGroupTypeName() inputs    [i=2]
+--GuestAPI: GetGroupTypeName() outputs   [1="TeenCouple"]
+--AttractionsAPI: Group Type [2] - TeenCouple
+--GuestAPI: GetGroupTypeName() inputs    [i=3]
+--GuestAPI: GetGroupTypeName() outputs   [1="AdultCouple"]
+--AttractionsAPI: Group Type [3] - AdultCouple
+--GuestAPI: GetGroupTypeName() inputs    [i=4]
+--GuestAPI: GetGroupTypeName() outputs   [1="TeenGroup"]
+--AttractionsAPI: Group Type [4] - TeenGroup
+--GuestAPI: GetGroupTypeName() inputs    [i=5]
+--GuestAPI: GetGroupTypeName() outputs   [1="AdultGroup"]
+--AttractionsAPI: Group Type [5] - AdultGroup
+--GuestAPI: GetGroupTypeName() inputs    [i=6]
+--GuestAPI: GetGroupTypeName() outputs   [1="FamilyChild"]
+--AttractionsAPI: Group Type [6] - FamilyChild
+--GuestAPI: GetGroupTypeName() inputs    [i=7]
+--GuestAPI: GetGroupTypeName() outputs   [1="FamilyTeen"]
+--AttractionsAPI: Group Type [7] - FamilyTeen
+--GuestAPI: GetGroupTypeName() inputs    [i=8]
+--GuestAPI: GetGroupTypeName() outputs   [1="FamilyTeenChild"]
+--AttractionsAPI: Group Type [8] - FamilyTeenChild
+--GuestAPI: GetGroupTypeName() inputs    [i=0]
+--GuestAPI: GetGroupTypeName() outputs   [1="SingleTeen"]
+--AttractionsAPI: Group Type [0] - SingleTeen
+
+
+--GuestAPI: GetChildGroupsWeightedRatio() called    [No Inputs]
+--GuestAPI: GetChildGroupsWeightedRatio() outputs   [1=0.0]
+--GuestAPI: GetMaxPossibleTolerances() called    [No Inputs]
+--GuestAPI: GetMaxPossibleTolerances() outputs   [1=table: 000000001807E500]
+--  - 1 - Table Contents:
+--  -     nMaxNauseaTolerable: 100.0
+--  -     nMaxIntensityTolerable: 70.0

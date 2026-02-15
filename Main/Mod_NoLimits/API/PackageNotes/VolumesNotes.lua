@@ -1,0 +1,322 @@
+--VolumeSplineMode -> CreateMoveObjectForVolumeSpline() undohierarchy
+    --CreateMoveObjectForVolumeSpline() inputs    [operationHierarchy=userdata: 0000000018889AB0 - (userdata)]  [Arg3=fTransformQ: pos=(35.20,0.02,8.40) or=(0.00,0.00,0.00,1.00) - (userdata)]  [bStraight=false]  [bClassic=false]  [bArg6=true]  [bStub=true]
+    --[operationHierarchy] Meta Contents:  (userdata)
+    --CreateCompositeObject: function: 000000014048C390
+    --DestroyExistingPart: function: 000000014048A5C0
+    --SetCashPos: function: 0000000140487F90
+    --_PACKAGE:
+    --CloneExistingPartDuplicates: function: 0000000140488E80
+    --BeginVolumeModificationsBlock: function: 000000014048D2A0
+    --CreateNewParts: function: 00000001404882D0
+    --CloneExistingPart: function: 00000001404885F0
+    --StartEditingPart_Scenery: function: 000000014048B470
+    --GetFullUndoChangeList: function: 0000000140486C00
+    --EditExistingPart: function: 00000001404891A0
+    --GetOngoingPartEdit_Group: function: 000000014048E780
+    --SetMagicModeModifyVolumes: function: 000000014048DAA0
+    --GetAllEditedGroupsThatShouldBeDestroyed: function: 000000014048F800
+    --GetOngoingPartEdits_Group: function: 000000014048EA10
+    --StartEditingParts_Scenery: function: 000000014048B6F0
+    --IsLoadedBlueprintReadyForEditing: function: 000000014048FD80
+    --SetWaterVolumeColour: function: 0000000140490AA0
+    --SetParkZoneColour: function: 00000001404906C0
+    --GetTerrainEditOperation: function: 00000001404879C0
+    --ModifyParkZoneShape: function: 00000001404902E0
+    --StartEditingPart_Group: function: 000000014048DCA0
+    --CreateNewPart: function: 00000001404880F0
+    --IsEditingPlacementPart: function: 000000014048FAB0
+    --_NAME: game::editors::undooperationshierarchy
+    --StartEditingParts_Group: function: 000000014048DEE0
+    --AddCashDelta: function: 0000000140487B30
+    --AddVolumeChunkToCompositeObject: function: 000000014048CFA0
+    --RemoveAllConnectionsFromEntity: function: 0000000140486EE0
+    --CreateParkZone: function: 000000014048FE60
+    --SetPerformTerrainModificationsModifyVolumes: function: 000000014048D8A0
+    --SetErrorOnPathMergeUnchangedModifyVolumes: function: 000000014048D6A0
+    --EndVolumeModificationsBlock: function: 000000014048D3F0
+    --ModifyUtilityConnection: function: 00000001404877D0
+    --GetCleanupConnectionEntities: function: 0000000140487020
+    --__gc: function: 00000001402E4430
+    --DestroyExistingParts: function: 000000014048A740
+    --DestroyParkZone: function: 000000014048FFB0
+    --CloneExistingParts: function: 0000000140488870
+    --GetOngoingPartEdit_Scenery: function: 000000014048BFE0
+    --SetCashAccumulate: function: 0000000140487CB0
+    --__eq: function: 00000001417DBDC0
+    --AddBlueprintToCompositeObject: function: 000000014048CD80
+    --AddPartsToCompositeObject: function: 000000014048C570
+    --CanAfford: function: 0000000140487E10
+    --RemoveDLCItems: function: 000000014048FC20
+    --GetAllEditedGroupsContainingOnlySnapEdges: function: 000000014048F260
+    --userdata: 00000001431C32F0: true
+    --EditExistingParts: function: 0000000140489420
+    --RemoveVolume: function: 000000014048D4F0
+    --__index: table: 00000000185B4DC0
+    --GetBoundaryChangeList: function: 0000000140486D70
+    --_M: table: 00000000185B4DC0
+
+    --[Arg3] Meta Contents:  (userdata)
+    --GetU: function: 00000001417F0990
+    --ToWorld: function: 00000001417F0C60
+    --NormaliseOr: function: 00000001417F07D0
+    --Inverted: function: 00000001417F0B50
+    --GetF: function: 00000001417F0A70
+    --WithPos: function: 00000001417F0550
+    --FromOrPos: function: 00000001417F03E0
+    --ToLocal: function: 00000001417F0DB0
+    --ToWorldPos: function: 00000001417F0F10
+    --WithOr: function: 00000001417F0720
+    --Or: function: 00000001417F06B0
+    --__viz: function: 00000001417F1500
+    --ToString: function: 00000001417F1440
+    --_M: table: 0000000018397040
+    --R: function: 00000001417F08B0
+    --__tostring: function: 00000001417F1440
+    --_NAME: transformq
+    --Pos: function: 00000001417E94B0
+    --ToLocalDir: function: 00000001417F1270
+    --GetPosition: function: 00000001417E94B0
+    --GetPos: function: 00000001417E94B0
+    --GetOrientation: function: 00000001417F06B0
+    --F: function: 00000001417F0A70
+    --userdata: 00000001431C3DA8: true
+    --__gc: function: 00000001417F8D30
+    --GetR: function: 00000001417F08B0
+    --__eq: function: 00000001417F0470
+    --Equals: function: 00000001417F0470
+    --U: function: 00000001417F0990
+    --ToWorldDir: function: 00000001417F1150
+    --GetOr: function: 00000001417F06B0
+    --ToLocalPos: function: 00000001417F1030
+    --_PACKAGE:
+    --AddDeltaPos: function: 00000001417F0600
+    --__index: table: 0000000018397040
+    --Identity: fTransformQ: pos=(0.00,0.00,0.00) or=(0.00,0.00,0.00,1.00)
+
+    --Pre callback CreateMoveObjectForVolumeSpline()
+    --Attempting result merge CreateMoveObjectForVolumeSpline()
+    --End logging CreateMoveObjectForVolumeSpline()
+    --CreateMoveObjectForVolumeSpline() outputs   [1=userdata: 000000001851B8F0 - (userdata)]
+    --[1] Meta Contents:  (userdata)
+    --LocaliseOverridenNames: function: 00000001406B46F0
+    --AlignCompositeRotation: function: 00000001406B3C80
+    --SetPatternTileOffsets: function: 00000001406B5260
+    --GetTransform: function: 00000001406AFD80
+    --_PACKAGE:
+    --SetQuaternion: function: 00000001406B0480
+    --SetPosition: function: 00000001406AFF30
+    --SetPatternRotation: function: 00000001406B5440
+    --CalculateTransformForSurfacePlacement: function: 00000001406B2400
+    --NinetyDegreeRotationOccurred: function: 00000001406B08F0
+    --IsEmpty: function: 00000001406ADFF0
+    --SetTransform: function: 00000001406B0610
+    --_M: table: 00000000184C4FC0
+    --SetPatternTexture: function: 00000001406B4CE0
+    --SetCompositeOriginToOBBCentre: function: 00000001406B3AF0
+    --GetYRotation: function: 00000001406AFB30
+    --GetGridAlignmentStyle: function: 00000001406B0C20
+    --__eq: function: 00000001417DBDC0
+    --RemoveDLCItems: function: 00000001406AE0F0
+    --CompositeHasWellDefinedTransformForReset: function: 00000001406B4070
+    --GetGroups: function: 00000001406AED60
+    --IsGridObject: function: 00000001406B0E50
+    --PreviewTransformSnapToGrid: function: 00000001406B3410
+    --IsSceneryObject: function: 00000001406B0F50
+    --SetTransformForSurfacePlacement: function: 00000001406B2840
+    --GetMinScale: function: 00000001406B4290
+    --SetPatternTileRates: function: 00000001406B5080
+    --GetControlPoint: function: 00000001406B0A60
+    --SetEditContextSceneryPlatformOwnerID: function: 00000001406B57E0
+    --CompositeAlignmentType_LeastConstrained: 0
+    --GetSceneryAndBuildingGroups: function: 00000001406AE5F0
+    --SetScale: function: 00000001406B0770
+    --SetYRotation: function: 00000001406B00D0
+    --CompositeAlignmentType_Average: 0
+    --DecayCompositeAlignmentType: function: 00000001406B3D60
+    --CompositeAlignmentType_ItemAlignedVertical: 2
+    --CompositeAlignmentType_ItemAligned: 1
+    --GetScale: function: 00000001406AFE50
+    --_NAME: game::editors::moveobjectbasehandle
+    --SetColour: function: 00000001406B4A90
+    --CompositeAlignmentType_BoundingBox: 3
+    --GetPosition: function: 00000001406ADE00
+    --CompositeAlignmentType_MostConstrained: 3
+    --SetTransformForSnapPointPlacement: function: 00000001406B2CB0
+    --GetRequiredDLC: function: 00000001406ADF10
+    --SetPatternBlendDistance: function: 00000001406B5610
+    --GetOBB: function: 00000001406B0D10
+    --ContainsRide: function: 00000001406AE470
+    --__index: table: 00000000184C4FC0
+    --__gc: function: 00000001406DA290
+    --GetMaterialCustomisationData: function: 00000001406B4450
+    --GetQuaternion: function: 00000001406AFCB0
+    --SnapToGrid: function: 00000001406B2FB0
+    --SetRoughnessAdjust: function: 00000001406B4EB0
+    --ContainsRides: function: 00000001406AE370
+    --userdata: 00000001431C3778: true
+    --Destroy: function: 00000001406B4630
+    --ShowDebugInfo: function: 00000001402E2EB0
+    --GetSceneryAndBuildingGroupCounts: function: 00000001406AEBF0
+    --CanScale: function: 00000001406B4190
+    --IsCompositeObject: function: 00000001406B10C0
+    --GetMaxScale: function: 00000001406B4370
+    --GetFlumePlatforms: function: 00000001406AF840
+    --RequestCompositeAlignmentType: function: 00000001406B3EE0
+    --GetUnlockLevel: function: 00000001406AE290
+    --AlignCompositeVolumeToGrid: function: 00000001406B38C0
+    --GetBelongingOrPlatformAttachedPartsInGroups: function: 00000001406AF350
+    --[1] Existing __index methods:
+    --LocaliseOverridenNames: function: 00000001406B46F0
+    --AlignCompositeRotation: function: 00000001406B3C80
+    --SetPatternTileOffsets: function: 00000001406B5260
+    --GetTransform: function: 00000001406AFD80
+    --_PACKAGE:
+    --SetQuaternion: function: 00000001406B0480
+    --SetPosition: function: 00000001406AFF30
+    --SetPatternRotation: function: 00000001406B5440
+    --CalculateTransformForSurfacePlacement: function: 00000001406B2400
+    --NinetyDegreeRotationOccurred: function: 00000001406B08F0
+    --IsEmpty: function: 00000001406ADFF0
+    --SetTransform: function: 00000001406B0610
+    --_M: table: 00000000184C4FC0
+    --SetPatternTexture: function: 00000001406B4CE0
+    --SetCompositeOriginToOBBCentre: function: 00000001406B3AF0
+    --GetYRotation: function: 00000001406AFB30
+    --GetGridAlignmentStyle: function: 00000001406B0C20
+    --__eq: function: 00000001417DBDC0
+    --RemoveDLCItems: function: 00000001406AE0F0
+    --CompositeHasWellDefinedTransformForReset: function: 00000001406B4070
+    --GetGroups: function: 00000001406AED60
+    --IsGridObject: function: 00000001406B0E50
+    --PreviewTransformSnapToGrid: function: 00000001406B3410
+    --IsSceneryObject: function: 00000001406B0F50
+    --SetTransformForSurfacePlacement: function: 00000001406B2840
+    --GetMinScale: function: 00000001406B4290
+    --SetPatternTileRates: function: 00000001406B5080
+    --GetControlPoint: function: 00000001406B0A60
+    --SetEditContextSceneryPlatformOwnerID: function: 00000001406B57E0
+    --CompositeAlignmentType_LeastConstrained: 0
+    --GetSceneryAndBuildingGroups: function: 00000001406AE5F0
+    --SetScale: function: 00000001406B0770
+    --SetYRotation: function: 00000001406B00D0
+    --CompositeAlignmentType_Average: 0
+    --DecayCompositeAlignmentType: function: 00000001406B3D60
+    --CompositeAlignmentType_ItemAlignedVertical: 2
+    --CompositeAlignmentType_ItemAligned: 1
+    --GetScale: function: 00000001406AFE50
+    --_NAME: game::editors::moveobjectbasehandle
+    --SetColour: function: 00000001406B4A90
+    --CompositeAlignmentType_BoundingBox: 3
+    --GetPosition: function: 00000001406ADE00
+    --CompositeAlignmentType_MostConstrained: 3
+    --SetTransformForSnapPointPlacement: function: 00000001406B2CB0
+    --GetRequiredDLC: function: 00000001406ADF10
+    --SetPatternBlendDistance: function: 00000001406B5610
+    --GetOBB: function: 00000001406B0D10
+    --ContainsRide: function: 00000001406AE470
+    --__index: table: 00000000184C4FC0
+    --__gc: function: 00000001406DA290
+    --GetMaterialCustomisationData: function: 00000001406B4450
+    --GetQuaternion: function: 00000001406AFCB0
+    --SnapToGrid: function: 00000001406B2FB0
+    --SetRoughnessAdjust: function: 00000001406B4EB0
+    --ContainsRides: function: 00000001406AE370
+    --userdata: 00000001431C3778: true
+    --Destroy: function: 00000001406B4630
+    --ShowDebugInfo: function: 00000001402E2EB0
+    --GetSceneryAndBuildingGroupCounts: function: 00000001406AEBF0
+    --CanScale: function: 00000001406B4190
+    --IsCompositeObject: function: 00000001406B10C0
+    --GetMaxScale: function: 00000001406B4370
+    --GetFlumePlatforms: function: 00000001406AF840
+    --RequestCompositeAlignmentType: function: 00000001406B3EE0
+    --GetUnlockLevel: function: 00000001406AE290
+    --AlignCompositeVolumeToGrid: function: 00000001406B38C0
+    --GetBelongingOrPlatformAttachedPartsInGroups: function: 00000001406AF350
+    --[1] No index metatable
+
+
+
+
+
+
+
+
+
+
+
+--VolumeSplineMode -> SetSplineBuildingOptions()
+    --SetSplineBuildingOptions() inputs    [volumeMoveObject=userdata: 000000001874FBF0 - (userdata)]  [Arg3=true]  [Arg4=true]  [4=false]
+    --[volumeMoveObject] Meta Contents:  (userdata)
+    --__gc: function: 00000001406DA290
+    --ContainsRides: function: 00000001406AE370
+    --GetUnlockLevel: function: 00000001406AE290
+    --GetScale: function: 00000001406AFE50
+    --SetQuaternion: function: 00000001406B0480
+    --SetPatternTileOffsets: function: 00000001406B5260
+    --CalculateTransformForSurfacePlacement: function: 00000001406B2400
+    --GetQuaternion: function: 00000001406AFCB0
+    --SetCompositeOriginToOBBCentre: function: 00000001406B3AF0
+    --GetRequiredDLC: function: 00000001406ADF10
+    --SetYRotation: function: 00000001406B00D0
+    --IsCompositeObject: function: 00000001406B10C0
+    --DecayCompositeAlignmentType: function: 00000001406B3D60
+    --GetGroups: function: 00000001406AED60
+    --IsSceneryObject: function: 00000001406B0F50
+    --RemoveDLCItems: function: 00000001406AE0F0
+    --GetPosition: function: 00000001406ADE00
+    --_M: table: 00000000189B13C0
+    --SetPosition: function: 00000001406AFF30
+    --SetTransformForSnapPointPlacement: function: 00000001406B2CB0
+    --GetMaterialCustomisationData: function: 00000001406B4450
+    --SetScale: function: 00000001406B0770
+    --CanScale: function: 00000001406B4190
+    --SetPatternRotation: function: 00000001406B5440
+    --GetTransform: function: 00000001406AFD80
+    --GetBelongingOrPlatformAttachedPartsInGroups: function: 00000001406AF350
+    --SetTransform: function: 00000001406B0610
+    --__index: table: 00000000189B13C0
+    --SnapToGrid: function: 00000001406B2FB0
+    --NinetyDegreeRotationOccurred: function: 00000001406B08F0
+    --IsEmpty: function: 00000001406ADFF0
+    --Destroy: function: 00000001406B4630
+    --ContainsRide: function: 00000001406AE470
+    --IsGridObject: function: 00000001406B0E50
+    --AlignCompositeVolumeToGrid: function: 00000001406B38C0
+    --SetEditContextSceneryPlatformOwnerID: function: 00000001406B57E0
+    --__eq: function: 00000001417DBDC0
+    --SetPatternTexture: function: 00000001406B4CE0
+    --SetRoughnessAdjust: function: 00000001406B4EB0
+    --GetGridAlignmentStyle: function: 00000001406B0C20
+    --GetMaxScale: function: 00000001406B4370
+    --GetSceneryAndBuildingGroupCounts: function: 00000001406AEBF0
+    --CompositeAlignmentType_Average: 0
+    --GetControlPoint: function: 00000001406B0A60
+    --_NAME: game::editors::moveobjectbasehandle
+    --GetFlumePlatforms: function: 00000001406AF840
+    --GetYRotation: function: 00000001406AFB30
+    --CompositeAlignmentType_BoundingBox: 3
+    --CompositeAlignmentType_ItemAlignedVertical: 2
+    --ShowDebugInfo: function: 00000001402E2EB0
+    --GetSceneryAndBuildingGroups: function: 00000001406AE5F0
+    --_PACKAGE:
+    --CompositeAlignmentType_ItemAligned: 1
+    --CompositeAlignmentType_MostConstrained: 3
+    --GetMinScale: function: 00000001406B4290
+    --userdata: 00000001431C3778: true
+    --LocaliseOverridenNames: function: 00000001406B46F0
+    --GetOBB: function: 00000001406B0D10
+    --PreviewTransformSnapToGrid: function: 00000001406B3410
+    --CompositeAlignmentType_LeastConstrained: 0
+    --SetPatternBlendDistance: function: 00000001406B5610
+    --SetPatternTileRates: function: 00000001406B5080
+    --SetColour: function: 00000001406B4A90
+    --SetTransformForSurfacePlacement: function: 00000001406B2840
+    --CompositeHasWellDefinedTransformForReset: function: 00000001406B4070
+    --RequestCompositeAlignmentType: function: 00000001406B3EE0
+    --AlignCompositeRotation: function: 00000001406B3C80
+
+--[00000029.915] [INFO] NoLimits::Components::VolumesAPI: GetSplineResultData() outputs   [bCommitCurrent=false]    [vStartPos=(22.81052,0.015625,13.88614) - (vector3)]    [vEndPos=(22.81052,0.015625,13.88614) - (vector3)]      [bShouldContinueBuilding=true]  [vCameraDeltaStraight=(0.0,0.0,0.0) - (vector3)]                [vCameraDeltaContinued=(0.0,0.0,0.0) - (vector3)]               [nCameraDeltaRotation=0.0]
+--[00000068.619] [INFO] NoLimits::Components::VolumesAPI: GetSplineResultData() outputs   [bCommitCurrent=true]     [vStartPos=(21.2579,0.015625,8.404627) - (vector3)]     [vEndPos=(25.20592,0.015625,9.047334) - (vector3)]      [bShouldContinueBuilding=true]  [vCameraDeltaStraight=(3.18078,0.0,-5.141159) - (vector3)]      [vCameraDeltaContinued=(-1.673872,0.0,-0.2186708) - (vector3)]  [nCameraDeltaRotation=-3.128312]
+--[00000080.269] [INFO] NoLimits::Components::VolumesAPI: GetSplineResultData() outputs   [bCommitCurrent=false]    [vStartPos=(27.80644,0.015625,-6.272029) - (vector3)]   [vEndPos=(27.80644,0.015625,-6.272029) - (vector3)]     [bShouldContinueBuilding=true]  [vCameraDeltaStraight=(0.0,0.0,0.0) - (vector3)]                [vCameraDeltaContinued=(0.0,0.0,0.0) - (vector3)]               [nCameraDeltaRotation=0.0]
+--[00000081.945] [INFO] NoLimits::Components::VolumesAPI: GetSplineResultData() outputs   [bCommitCurrent=true]     [vStartPos=(27.80644,0.015625,-6.272029) - (vector3)]   [vEndPos=(24.53805,0.015625,-2.061829) - (vector3)]     [bShouldContinueBuilding=true]  [vCameraDeltaStraight=(1.581589,0.0,6.950305) - (vector3)]      [vCameraDeltaContinued=(4.963953,0.0,1.940964) - (vector3)]     [nCameraDeltaRotation=1.858186]

@@ -1,0 +1,113 @@
+---@meta
+
+---@class (partial) DebugTweakable
+local DebugTweakable = {}
+
+---@param self DebugTweakable
+---@return number value
+function DebugTweakable.GetValue(self) end
+
+---@class vector 
+
+---@class (partial) Vector2 : vector
+---@field new fun(cls:Vector2, x:number, y:number):Vector2
+---@field Cross fun(vector1:Vector2, vector2:Vector2):Vector2
+---@field Dot fun(vector1:Vector2, vector2:Vector2):number
+---@field GetLength fun(self:Vector2):number
+---@field GetLengthSq fun(self:Vector2):number
+---@field GetX fun(self:Vector2):number
+---@field GetY fun(self:Vector2):number
+---@field IsFinite fun(self:Vector2):boolean
+---@field Length fun(self:Vector2):number
+---@field LengthSq fun(self:Vector2):number
+---@field Normalised fun(self:Vector2):Vector2
+---@field Perpendicular fun(self:Vector2, ...):Vector2
+---@field PlusX fun(self:Vector2, x:number):Vector2
+---@field PlusY fun(self:Vector2, y:number):Vector2
+---@field Rotated fun(self:Vector2, axis:Vector2, angle:number):Vector2
+---@field SafeNormalised fun(self:Vector2, vector:Vector2):Vector2
+---@field ToString fun(self:Vector2):string
+---@field WithLength fun(self:Vector2, length:number):Vector2
+---@field WithX fun(self:Vector2, x:number):Vector2
+---@field WithY fun(self:Vector2, y:number):Vector2
+---@field X fun(self:Vector2):number
+---@field Y fun(self:Vector2):number
+---@field XAxis Vector2
+---@field YAxis Vector2
+---@field Zero Vector2
+
+---@class (partial) Vector3 : vector
+---@field new fun(cls:Vector3, x:number, y:number, z:number):Vector3
+---@field Cross fun(vector1:Vector3, vector2:Vector3):Vector3
+---@field Dot fun(vector1:Vector3, vector2:Vector3):number
+---@field GetLength fun(self:Vector3):number
+---@field GetLengthSq fun(self:Vector3):number
+---@field GetLengthXZ fun(self:Vector3):number
+---@field GetLengthXZSq fun(self:Vector3):number
+---@field GetX fun(self:Vector3):number
+---@field GetY fun(self:Vector3):number
+---@field GetZ fun(self:Vector3):number
+---@field IsFinite fun(self:Vector3):boolean
+---@field Length fun(self:Vector3):number
+---@field LengthSq fun(self:Vector3):number
+---@field LengthXZ fun(self:Vector3):number
+---@field LengthXZSq fun(self:Vector3):number
+---@field Lerp fun(self:Vector3, ...):Vector3
+---@field Normalised fun(self:Vector3):Vector3
+---@field Perpendicular fun(self:Vector3, ...)
+---@field PlusX fun(self:Vector3, x:number):Vector3
+---@field PlusY fun(self:Vector3, y:number):Vector3
+---@field PlusZ fun(self:Vector3, z:number):Vector3
+---@field RotatedAround fun(self:Vector3, axis:Vector3, angle:number)
+---@field SafeNormalised fun(self:Vector3, vector:Vector3)
+---@field ToString fun(self:Vector3):string
+---@field WithLength fun(self:Vector3, length:number):Vector3
+---@field WithX fun(self:Vector3, x:number):Vector3
+---@field WithY fun(self:Vector3, y:number):Vector3
+---@field WithZ fun(self:Vector3, z:number):Vector3
+---@field WithXY fun(self:Vector3, x:number, y:number):Vector3
+---@field WithXZ fun(self:Vector3, x:number, z:number):Vector3
+---@field WithYX fun(self:Vector3, y:number, x:number):Vector3
+---@field WithYZ fun(self:Vector3, y:number, z:number):Vector3
+---@field WithZX fun(self:Vector3, z:number, x:number):Vector3
+---@field WithZY fun(self:Vector3, z:number, y:number):Vector3
+---@field X fun(self:Vector3):number
+---@field Y fun(self:Vector3):number
+---@field Z fun(self:Vector3):number
+---@field XY fun(self:Vector3):Vector2
+---@field XZ fun(self:Vector3):Vector2
+---@field YZ fun(self:Vector3):Vector2
+---@field XAxis Vector3
+---@field YAxis Vector3
+---@field ZAxis Vector3
+---@field Zero Vector3
+
+---@class CommitFailReason
+---@field bUnsuitableTerrainForPathConnection boolean
+---@field bMalformedPathPart boolean
+---@field bNotAttachedToPlatform boolean
+---@field bIntersectingTerrain boolean
+---@field bTooExpensive boolean
+---@field bCannotMakeHoleInFlumePlatform boolean
+---@field bConnectingQueueToExit boolean
+---@field bUnknown boolean
+---@field bObstructedByWater boolean
+---@field bTerrainEditFailed boolean
+---@field bGeneric boolean
+---@field bInvalidQueue boolean
+---@field bOutOfBounds_TooLow boolean
+---@field bStationsLocked boolean
+---@field bCannotSplitFlumePlatform boolean
+---@field bUnsuitableTerrainForPlacement boolean
+---@field bPreExistingTrackSectionsLocked boolean
+---@field bOutOfBounds boolean
+---@field bTrackTooHigh boolean
+---@field bOutOfBounds_TooHigh boolean
+---@field bTooSteepPathPart boolean
+---@field bCannotDeleteFlumePlatformSectionUnderEntrance boolean
+---@field bTrackNotLegal boolean
+---@field bObstructed boolean
+---@field bCannotDeleteFlumePlatformSectionUnderStation boolean
+---@field bPathMergeUnchanged boolean
+---@field bCannotEditFlumeEntrance boolean
+---@field bIllegalStandalonePart boolean

@@ -1,0 +1,6 @@
+--[00000155.233] [INFO] NoLimits::Components::SceneryAPI: GetPartScaleData() inputs    [nPartID=83]
+--[00000155.233] [INFO] NoLimits::Components::SceneryAPI: GetPartScaleData() outputs   [1=table: 0000000017F54E00]
+--[00000155.233] [INFO] NoLimits::DebugUtils:   [1] Table Contents:  (table)
+--[00000155.234] [INFO] NoLimits::DebugUtils:   nScale: 1.0
+--[00000155.234] [INFO] NoLimits::DebugUtils:   nMinScale: 0.5
+--[00000155.234] [INFO] NoLimits::DebugUtils:   nMaxScale: 3.0
